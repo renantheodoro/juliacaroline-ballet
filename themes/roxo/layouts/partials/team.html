@@ -20,9 +20,8 @@
             <h3>{{ .name }}</h3>
             <p>{{ .designation | safeHTML }}</p>
             <ul class="site-team-member-social">
-              <li><a href="{{ .link | absURL }}"></a>Visitar {{ .label }} <i class="fa fa-external-link"></i></a></li>
-              <!-- <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="{{ .instagram | absURL }}"><i class="fa fa-instagram"></i></a></li> -->
+              <li><a href="{{ .link | absURL }}" target="_blank">Visitar {{ .label }} <i
+                  class="fa fa-external-link"></i></a></li>
             </ul>
           </div>
         </div>

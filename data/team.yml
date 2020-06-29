@@ -18,7 +18,7 @@ members  :
     name        : 1º lugar (grupo clássico)
     designation : Encontro cultural de dança <br> <strong>Elite produções artísticas</strong>
     medium      : https://www.medium.com/
-    link    : https://www.linkedin.com/
+    link        : https://www.linkedin.com/
     label       : 'escola'
     
   - image       : images/medals/medal-gold.png

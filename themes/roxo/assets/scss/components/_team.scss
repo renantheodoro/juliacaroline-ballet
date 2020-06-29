@@ -61,6 +61,7 @@
 
         a {
           color: $text-color-dark;
+          display: inline-block;
         }
 
         &:not(:last-child) {
