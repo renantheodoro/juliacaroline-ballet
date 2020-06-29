@@ -1,0 +1,14 @@
+enable : true
+heading : "A PROVA ESTÁ NO PUDIM!"
+counter_item: 
+  - title: "Clientes felizes!"
+    number: "250"
+
+  - title: "Projetos completos"
+    number: "100"
+
+  - title: "Copos de café"
+    number: "350"
+
+  - title: "Conversas de telefone"
+    number: "775"
