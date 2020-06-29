@@ -1,14 +1,14 @@
 enable : true
-heading : "A PROVA ESTÁ NO PUDIM!"
+heading : "OS NÚMEROS CONTAM!"
 counter_item: 
-  - title: "Clientes felizes!"
+  - title: "Alunas contentes"
     number: "250"
 
-  - title: "Projetos completos"
+  - title: "Premiações"
     number: "100"
 
-  - title: "Copos de café"
+  - title: "Projetos"
     number: "350"
 
-  - title: "Conversas de telefone"
+  - title: "Calos nos pés"
     number: "775"
