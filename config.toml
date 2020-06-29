@@ -1,0 +1,115 @@
+baseURL       = "https://balletjulia.com.br/"
+languageCode  = "pt-br"
+title         = "Julia Caroline | Sua professora de Ballet Clássico"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Sobre mim"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfólio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Entre em contato"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Julia Caroline | Sua professora de Ballet Clássico"
+  author = "Julia Caroline"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Entre em contato"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background-1.jpg"
+    heading               = "A dança é mais do que um esporte, é um estilo de vida"
+    tagline               = "O TRABALHO DURO GERA O RESULTADO PERFEITO"
+    primary_button        = "Veja meu trabalho"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Entre em contato"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "MEUS PROJETOS"
+    subtitle  = "É aqui que o complexo se torna simples & belo."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "Agende uma avaliação"
+    primary_button      = "Entre em contato"
+    primary_button_url  = "contact"
+    secondary_button    = "Ver mais sobre o projeto"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contato"
+      address = "São Paulo - SP"
+      phone   = "(11) 96760-4159"
+      email   = "contato@balletjulia.com.br"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Navegue mais"
+        [[params.footer.sitemap.link]]
+          name = "Sobre o projeto"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projetos"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contato"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Mídias sociais"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/juliacaroline.candidolopes"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/juhcarol.lopes/"
+        # [[params.footer.social.link]]
+        #   name = "Dribbble"
+        #   url  = "#"
+        # [[params.footer.social.link]]
+        #   name = "Instagram"
+        #   url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "Ajudamos as dançarinas a:"
+        description = "Viverem seus sonhos <br> Desenvolverem seu estilo <br> Dançar com amor"
