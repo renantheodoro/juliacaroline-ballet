@@ -13,11 +13,11 @@ summarylength = 25
     weight  = 1
   [[menu.nav]]
     name    = "Sobre mim"
-    url     = "about"
+    url     = "sobre-mim"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfólio"
-    url     = "portfolio"
+    name    = "Projetos"
+    url     = "projetos"
     weight  = 3
   [[menu.nav]]
     name    = "Blog"
@@ -25,7 +25,7 @@ summarylength = 25
     weight  = 4
   [[menu.nav]]
     name    = "Entre em contato"
-    url     = "contact"
+    url     = "contato"
     weight  = 5
 
 # Site Params
@@ -44,7 +44,7 @@ summarylength = 25
   [params.navAction]
     status  = true
     name    = "Entre em contato"
-    url     = "contact"
+    url     = "contato"
   
 
   # Banner Section
@@ -54,9 +54,9 @@ summarylength = 25
     heading               = "A dança é mais do que um esporte, é um estilo de vida"
     tagline               = "O TRABALHO DURO GERA O RESULTADO PERFEITO"
     primary_button        = "Veja meu trabalho"
-    primary_button_url    = "portfolio"
+    primary_button_url    = "projetos"
     secondary_button      = "Entre em contato"
-    secondary_button_url  = "contact"
+    secondary_button_url  = "contato"
 
   [params.portfolio]
     enable    = true
@@ -68,9 +68,9 @@ summarylength = 25
     background_image    = "images/backgrounds/cta-background.jpg"
     title               = "Agende uma avaliação"
     primary_button      = "Entre em contato"
-    primary_button_url  = "contact"
+    primary_button_url  = "contato"
     secondary_button    = "Ver mais sobre o projeto"
-    secondary_button_url = "portfolio"
+    secondary_button_url = "projetos"
 
   [params.footer]
     # Footer Contact Info
@@ -83,17 +83,17 @@ summarylength = 25
       [params.footer.sitemap]
         title   = "Navegue mais"
         [[params.footer.sitemap.link]]
-          name = "Sobre o projeto"
-          url  = "about"
+          name = "Sobre mim"
+          url  = "sobre-mim"
         [[params.footer.sitemap.link]]
           name = "Projetos"
-          url  = "portfolio"
+          url  = "projetos"
         [[params.footer.sitemap.link]]
           name = "Blog"
           url  = "blog"
         [[params.footer.sitemap.link]]
           name = "Contato"
-          url  = "contact"
+          url  = "contato"
       # Footer Social Media
       [params.footer.social]
         title   = "Mídias sociais"
