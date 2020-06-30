@@ -189,6 +189,9 @@
       margin-bottom: 30px;
       img{
         width: 48%;
+        object-fit: cover;
+        object-position: center;
+
         &:nth-child(2n){
           margin-left: auto;
         }
